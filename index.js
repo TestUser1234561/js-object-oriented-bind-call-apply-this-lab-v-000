@@ -1,3 +1,3 @@
 function justInvoke(fn) {
-  reutrn fn()
+  return fn()
 }
