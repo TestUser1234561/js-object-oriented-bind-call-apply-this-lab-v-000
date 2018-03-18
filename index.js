@@ -9,3 +9,7 @@ function setThisWithCall(fn, v, a) {
 function setThisWithApply(fn, v, a) {
   return fn.apply(v, a)
 }
+
+function returnNewFunctionOf(fn, t) {
+  return fn.bind(t)
+}
